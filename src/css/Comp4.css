@@ -1,0 +1,35 @@
+.comp4 .math-level{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 70px;
+}
+
+.comp4 .math-level div{
+    width:300px;
+    height: 200px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #CCCCCC;
+    margin: 20px;
+}
+
+.comp4 .math-level div:hover{
+    box-shadow: 2px 2px 10px #FF6600;
+}
+
+.comp4 .math-level div img{
+    width: 100%;
+    height: 30%;
+}
+
+.comp4-continue-btn{
+    padding: 10px 25px;
+    border: none;
+    font-size: large;
+    font-weight: 400;
+    color: white;
+    background-color: #CCCCCC;
+    margin: 20px 0;
+}

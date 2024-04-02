@@ -1,0 +1,31 @@
+.comp1-div{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    padding-left: 20px;
+    margin:20px 10px;
+    cursor: pointer;
+    padding: 0px 10px;
+}
+
+.continue-btn{
+    padding: 10px 25px;
+    border: none;
+    font-size: large;
+    font-weight: 400;
+    color: white;
+}
+
+.comp1-div p{
+    margin-left: 20px;
+}
+
+.comp1-div:hover{
+    box-shadow: 2px 2px 5px #FF6600;
+}
+
+@media screen and (max-width:440px) {
+    .comp1-div{
+        width:300px
+    }
+}

@@ -1,0 +1,57 @@
+.comp6{
+    padding: 50px 10px;
+}
+
+.comp6 #courses{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    height: 30vh;
+}
+
+.comp6 #courses .course{
+    width:400px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid #CCCCCC;
+    padding: 10px;
+    border-radius: 2%;
+    margin: 10px;
+}
+
+.comp6 #courses .course:hover{
+    box-shadow: 2px 2px 8px #FF6600;
+    border: none;
+}
+
+.comp6 #courses .course img{
+    width:30%
+}
+
+.comp6 #courses #tag{
+    background-color: #FF6600;
+    color: white;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    font-size: x-small;
+    padding-top: 5px;
+    border-radius: 20px;
+    font-weight: 600;
+    position: relative;
+    top:20px;
+    left: 10%;
+}
+
+@media screen and (max-width:460px) {
+    .comp6 #courses .course{
+        width:270px;
+    }
+    
+    .comp6 #courses .course img{
+        width:30%
+    }
+    
+}
